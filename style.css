@@ -5,4 +5,25 @@ Author: suzumiya
 Author URI: http://suzumiya.work
 Version: 0.1α
 */
+body {
+  background-color: #ffffff;
+  width: 70%;
+  margin: auto;
+  font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+body a {
+  color: #000;
+}
+
+header {
+  padding: 5em;
+}
+
+header a {
+  font-family: 'Noto Sans JP';
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
