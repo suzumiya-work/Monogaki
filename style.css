@@ -7,23 +7,47 @@ Version: 0.1α
 */
 body {
   background-color: #ffffff;
-  width: 70%;
+  width: 60%;
   margin: auto;
-  font-family: 'Sawarabi Gothic', sans-serif;
+  font-family: 'Roboto Mono', 'Sawarabi Gothic', monospace, sans-serif;
 }
 
 body a {
   color: #000;
 }
 
-header {
-  padding: 5em;
+body p {
+  font-size: 15px;
+  letter-spacing: 1px;
 }
 
-header a {
-  font-family: 'Noto Sans JP';
+header {
+  padding: 2em 0 3em;
+}
+
+header h1 {
+  font-family: 'Roboto Mono', 'Noto Sans JP', sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: 1px;
+}
+
+header h1 a {
+  text-decoration: none;
+}
+
+header h4 {
+  letter-spacing: .1em;
+}
+
+main h2 {
+  font-family: 'Roboto Mono', 'Noto Sans JP', sans-serif;
   font-weight: 700;
-  color: black;
+  letter-spacing: 0.05em;
+}
+
+main h2 a {
   text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
