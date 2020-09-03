@@ -1,5 +1,5 @@
     <footer class="site-footer">
-        <p>&copy; <?php bloginfo( 'name' ) ?> <?php echo date('Y'); ?>-</p>
+        <small>&copy; <?php bloginfo( 'name' ) ?> <?php echo date('Y'); ?>-</small>
     </footer>
 </div> <!-- closes <div class="container"> -->
 

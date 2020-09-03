@@ -22,13 +22,13 @@ body p {
 }
 
 header {
-  padding: 2em 0 3em;
+  padding: 5em 0 5em;
 }
 
 header h1 {
   font-family: 'Roboto Mono', 'Noto Sans JP', sans-serif;
   font-size: 36px;
-  font-weight: 500;
+  font-weight: 700;
   color: #000000;
   letter-spacing: 1px;
 }
@@ -38,16 +38,32 @@ header h1 a {
 }
 
 header h4 {
-  letter-spacing: .1em;
+  letter-spacing: .2em;
+  color: #555555;
 }
 
-main h2 {
+main .post {
+  padding: 0 0 1em;
+}
+
+main .post h2 {
+  font-size: 20px;
   font-family: 'Roboto Mono', 'Noto Sans JP', sans-serif;
   font-weight: 700;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1em;
+  padding: 0 0 .3em;
 }
 
-main h2 a {
+main .post h2 a {
+  color: #000000;
   text-decoration: none;
+}
+
+main .post p {
+  color: #555555;
+}
+
+footer small {
+  color: #555555;
 }
 /*# sourceMappingURL=style.css.map */
