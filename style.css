@@ -21,7 +21,6 @@ body p {
 }
 
 header {
-  text-align: right;
   padding: 5em 0 5em;
 }
 
@@ -42,13 +41,25 @@ header div h1 {
   font-weight: 700;
   color: #000000;
   letter-spacing: 1px;
+  margin-right: auto;
 }
 
 header div nav {
-  margin: 3px 2em 0;
+  margin: .4em 0 0;
 }
 
-header div nav li {
+header div nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header div nav ul li {
+  font-size: 14px;
+  margin: 0 0 0 2em;
   list-style: none;
 }
 
@@ -61,22 +72,47 @@ main .post {
   padding: 0 0 1.5em;
 }
 
-main .post h2 {
+main .post .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .post .title h2 {
   display: inline;
   font-size: 20px;
   font-family: 'Roboto Mono', 'Noto Sans JP', sans-serif;
   font-weight: 700;
   letter-spacing: 0.1em;
-  padding: 0 0 .3em;
+  margin: 0 0 .3em;
 }
 
-main .post .date {
+main .post .title .date {
   font-size: 12px;
-  display: inline;
+  display: inline-block;
 }
 
 main .post p {
   color: #555555;
+}
+
+main nav {
+  text-align: center;
+}
+
+main nav ul li {
+  font-size: 13px;
+  font-weight: 700;
+  margin: 0 .5rem 0;
+  display: inline-block;
+  list-style: none;
+}
+
+main nav ul li .current {
+  color: #FD7E00;
 }
 
 footer div {

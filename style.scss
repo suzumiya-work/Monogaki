@@ -19,7 +19,6 @@ body{
 }
 
 header{
-    text-align: right;
     padding: 5em 0 5em;
     div{
         width: 60%;
@@ -32,12 +31,19 @@ header{
             font-weight: 700;
             color: #000000;
             letter-spacing: 1px;
+            margin-right: auto;
         }
         nav{
-            margin: 3px 2em 0;
-            li{
-                list-style: none;
-            }
+            margin: .4em 0 0;
+            ul{
+                display: flex;
+                align-items: center;
+                li{
+                    font-size: 14px;
+                    margin: 0 0 0 2em;
+                    list-style: none;
+                }
+            }   
         }
     }
 }
@@ -47,20 +53,39 @@ main{
     margin: auto;
     .post{
         padding: 0 0 1.5em;
-        h2{
-            display: inline;
-            font-size: 20px;
-            font-family: 'Roboto Mono', 'Noto Sans JP', sans-serif;
-            font-weight: 700;
-            letter-spacing: 0.1em;
-            padding: 0 0 .3em;
-        }
-        .date{
-            font-size: 12px;
-            display: inline;
+        .title{
+            display: flex;
+            align-items: center;
+            h2{
+                display: inline;
+                font-size: 20px;
+                font-family: 'Roboto Mono', 'Noto Sans JP', sans-serif;
+                font-weight: 700;
+                letter-spacing: 0.1em;
+                margin: 0 0 .3em;
+            }
+            .date{
+                font-size: 12px;
+                display: inline-block;
+            }
         }
         p{
             color: #555555;
+        }
+    }
+    nav{
+        text-align: center;
+        ul{
+            li{
+                font-size: 13px;
+                font-weight: 700;
+                margin: 0 .5rem 0;
+                display: inline-block;
+                list-style: none;
+                .current{
+                    color: #FD7E00;
+                }
+            }
         }
     }
 }
