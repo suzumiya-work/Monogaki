@@ -11,6 +11,7 @@ body {
 }
 
 body a {
+  text-decoration: none;
   color: #000;
 }
 
@@ -43,12 +44,8 @@ header div h1 {
   letter-spacing: 1px;
 }
 
-header div h1 a {
-  text-decoration: none;
-}
-
 header div nav {
-  margin-left: auto;
+  margin: 3px 2em 0;
 }
 
 header div nav li {
@@ -71,11 +68,6 @@ main .post h2 {
   font-weight: 700;
   letter-spacing: 0.1em;
   padding: 0 0 .3em;
-}
-
-main .post h2 a {
-  color: #000000;
-  text-decoration: none;
 }
 
 main .post .date {

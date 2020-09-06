@@ -9,6 +9,7 @@ body{
     background-color: #ffffff;
     font-family: 'Roboto Mono', 'Sawarabi Gothic', monospace, sans-serif;
     a{
+        text-decoration: none;
         color: #000;
     }
     p{
@@ -31,12 +32,9 @@ header{
             font-weight: 700;
             color: #000000;
             letter-spacing: 1px;
-            a{
-                text-decoration: none;
-            }
         }
         nav{
-            margin-left: auto;
+            margin: 3px 2em 0;
             li{
                 list-style: none;
             }
@@ -56,10 +54,6 @@ main{
             font-weight: 700;
             letter-spacing: 0.1em;
             padding: 0 0 .3em;
-            a{
-                color: #000000;
-                text-decoration: none;
-            }
         }
         .date{
             font-size: 12px;
