@@ -4,6 +4,7 @@ Author: suzumiya
 Author URI: http://suzumiya.work
 Version: 0.1α
 */
+
 body{
     background-color: #ffffff;
     font-family: 'Roboto Mono', 'Sawarabi Gothic', monospace, sans-serif;
@@ -15,6 +16,7 @@ body{
         letter-spacing: 1px;
     }
 }
+
 header{
     text-align: right;
     padding: 5em 0 5em;
@@ -41,11 +43,12 @@ header{
         }
     }
 }
+
 main{
     width: 60%;
     margin: auto;
     .post{
-        padding: 0 0 1em;
+        padding: 0 0 1.5em;
         h2{
             display: inline;
             font-size: 20px;
@@ -67,6 +70,7 @@ main{
         }
     }
 }
+
 footer{
     div{
         width: 60%;
