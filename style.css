@@ -20,15 +20,22 @@ body p {
 }
 
 header {
+  text-align: right;
   padding: 5em 0 5em;
 }
 
 header div {
   width: 60%;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-header h1 {
+header div h1 {
   font-family: 'Roboto Mono', 'Noto Sans JP', sans-serif;
   font-size: 36px;
   font-weight: 700;
@@ -36,8 +43,16 @@ header h1 {
   letter-spacing: 1px;
 }
 
-header h1 a {
+header div h1 a {
   text-decoration: none;
+}
+
+header div nav {
+  margin-left: auto;
+}
+
+header div nav li {
+  list-style: none;
 }
 
 main {
