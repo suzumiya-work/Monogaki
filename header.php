@@ -17,6 +17,6 @@
             'theme_location' => 'header-nav',
             'container' => 'nav'
         ));?>
-        <!-- <?php get_search_form(); ?> -->
+        <?php //get_search_form(); ?>
     </div>
 </header>
