@@ -5,7 +5,7 @@
 
         <article class="post">
             <h2><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h2>
-            <p><?php the_time("Y年n月j日"); ?></p>
+            <p class="date"> - <?php the_time("Y年n月j日"); ?></p>
             <?php the_excerpt(); ?>
         </article>
 

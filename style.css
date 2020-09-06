@@ -7,8 +7,6 @@ Version: 0.1α
 */
 body {
   background-color: #ffffff;
-  width: 60%;
-  margin: auto;
   font-family: 'Roboto Mono', 'Sawarabi Gothic', monospace, sans-serif;
 }
 
@@ -25,6 +23,11 @@ header {
   padding: 5em 0 5em;
 }
 
+header div {
+  width: 60%;
+  margin: auto;
+}
+
 header h1 {
   font-family: 'Roboto Mono', 'Noto Sans JP', sans-serif;
   font-size: 36px;
@@ -37,9 +40,9 @@ header h1 a {
   text-decoration: none;
 }
 
-header h4 {
-  letter-spacing: .2em;
-  color: #555555;
+main {
+  width: 60%;
+  margin: auto;
 }
 
 main .post {
@@ -47,6 +50,7 @@ main .post {
 }
 
 main .post h2 {
+  display: inline;
   font-size: 20px;
   font-family: 'Roboto Mono', 'Noto Sans JP', sans-serif;
   font-weight: 700;
@@ -59,8 +63,18 @@ main .post h2 a {
   text-decoration: none;
 }
 
+main .post .date {
+  font-size: 12px;
+  display: inline;
+}
+
 main .post p {
   color: #555555;
+}
+
+footer div {
+  width: 60%;
+  margin: auto;
 }
 
 footer small {

@@ -6,8 +6,6 @@ Version: 0.1α
 */
 body{
     background-color: #ffffff;
-    width: 60%;
-    margin: auto;
     font-family: 'Roboto Mono', 'Sawarabi Gothic', monospace, sans-serif;
     a{
         color: #000;
@@ -19,6 +17,10 @@ body{
 }
 header{
     padding: 5em 0 5em;
+    div{
+        width: 60%;
+        margin: auto;
+    }
     h1{
     font-family: 'Roboto Mono', 'Noto Sans JP', sans-serif;
     font-size: 36px;
@@ -29,15 +31,14 @@ header{
             text-decoration: none;
         }
     }
-    h4{
-        letter-spacing: .2em;
-        color: #555555;
-    }
 }
 main{
+    width: 60%;
+    margin: auto;
     .post{
         padding: 0 0 1em;
         h2{
+            display: inline;
             font-size: 20px;
             font-family: 'Roboto Mono', 'Noto Sans JP', sans-serif;
             font-weight: 700;
@@ -48,12 +49,20 @@ main{
                 text-decoration: none;
             }
         }
+        .date{
+            font-size: 12px;
+            display: inline;
+        }
         p{
             color: #555555;
         }
     }
 }
 footer{
+    div{
+        width: 60%;
+        margin: auto;
+    }
     small{
         color: #555555;
     }
