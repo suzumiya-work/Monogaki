@@ -1,0 +1,104 @@
+/*
+Theme Name: Monogaki
+Author: suzumiya
+Author URI: http://suzumiya.work
+Version: 0.1
+*/
+
+body{
+    background-color: #ffffff;
+    font-family: 'Roboto Mono', 'Sawarabi Gothic', monospace, sans-serif;
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    p{
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+}
+
+header{
+    padding: 5em 0 5em;
+    div{
+        width: 60%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        h1{
+            font-family: 'Roboto Mono', 'Noto Sans JP', sans-serif;
+            font-size: 36px;
+            font-weight: 700;
+            color: #000000;
+            letter-spacing: 1px;
+            margin-right: auto;
+        }
+        nav{
+            margin: .4em 0 0;
+            ul{
+                display: flex;
+                align-items: center;
+                li{
+                    font-size: 14px;
+                    margin: 0 0 0 2em;
+                    list-style: none;
+                }
+            }   
+        }
+    }
+}
+
+main{
+    width: 60%;
+    margin: auto;
+    .post{
+        padding: 0 0 1.5em;
+        .title{
+            display: flex;
+            align-items: center;
+            h2{
+                display: inline;
+                font-size: 20px;
+                font-family: 'Roboto Mono', 'Noto Sans JP', sans-serif;
+                font-weight: 700;
+                letter-spacing: 0.1em;
+                margin: 0 0 .3em;
+            }
+            .date, .category{
+                font-size: 12px;
+                display: inline-block;
+            }
+            .category{
+                margin-left: .4em;
+            }
+        }
+        p{
+            color: #555555;
+        }
+    }
+    nav{
+        text-align: center;
+        ul{
+            li{
+                font-size: 13px;
+                font-weight: 700;
+                margin: 0 .5rem 0;
+                display: inline-block;
+                list-style: none;
+                .current{
+                    color: #FD7E00;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    div{
+        width: 60%;
+        margin: auto;
+    }
+    small{
+        color: #555555;
+    }
+}
