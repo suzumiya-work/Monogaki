@@ -7,6 +7,12 @@
             <div class="title">
                 <h2><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h2>
                 <p class="date"> - <?php echo get_the_date(); ?></p>
+                <p class="category"><?php if (!is_category() && has_category()):
+                        $postcat = get_the_category();
+                        echo $postcat[0]->name;
+                    ?>
+                </p>
+            <?php endif; ?>
             </div>
             <?php the_excerpt(); ?>
         </article>

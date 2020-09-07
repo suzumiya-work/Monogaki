@@ -90,9 +90,13 @@ main .post .title h2 {
   margin: 0 0 .3em;
 }
 
-main .post .title .date {
+main .post .title .date, main .post .title .category {
   font-size: 12px;
   display: inline-block;
+}
+
+main .post .title .category {
+  margin-left: .4em;
 }
 
 main .post p {

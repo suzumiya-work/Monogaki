@@ -64,9 +64,12 @@ main{
                 letter-spacing: 0.1em;
                 margin: 0 0 .3em;
             }
-            .date{
+            .date, .category{
                 font-size: 12px;
                 display: inline-block;
+            }
+            .category{
+                margin-left: .4em;
             }
         }
         p{
