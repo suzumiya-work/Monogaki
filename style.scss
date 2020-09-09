@@ -2,7 +2,7 @@
 Theme Name: Monogaki
 Author: suzumiya
 Author URI: http://suzumiya.work
-Version: 0.1
+Version: 0.1.2
 */
 
 body{
@@ -11,6 +11,7 @@ body{
     a{
         text-decoration: none;
         color: #000;
+        transition: 0.3s ease;
     }
     p{
         font-size: 15px;
@@ -28,9 +29,9 @@ header{
         h1{
             font-family: 'Roboto Mono', 'Noto Sans JP', sans-serif;
             font-size: 36px;
-            font-weight: 700;
+            font-weight: 500;
             color: #000000;
-            letter-spacing: 1px;
+            letter-spacing: .2rem;
             margin-right: auto;
         }
         nav{
@@ -43,7 +44,10 @@ header{
                     margin: 0 0 0 2em;
                     list-style: none;
                 }
-            }   
+            }
+            a:hover{
+                color: #FD7E00;
+            } 
         }
     }
 }
@@ -60,9 +64,12 @@ main{
                 display: inline;
                 font-size: 20px;
                 font-family: 'Roboto Mono', 'Noto Sans JP', sans-serif;
-                font-weight: 700;
+                font-weight: 500;
                 letter-spacing: 0.1em;
                 margin: 0 0 .3em;
+                a:hover{
+                    color: #FD7E00;
+                }
             }
             .date, .category{
                 font-size: 12px;
@@ -73,6 +80,7 @@ main{
             }
         }
         p{
+            letter-spacing: .1em;
             color: #555555;
         }
     }
