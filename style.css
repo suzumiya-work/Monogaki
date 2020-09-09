@@ -12,6 +12,8 @@ body {
 body a {
   text-decoration: none;
   color: #000;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 body p {
@@ -62,6 +64,10 @@ header div nav ul li {
   list-style: none;
 }
 
+header div nav a:hover {
+  color: #FD7E00;
+}
+
 main {
   width: 60%;
   margin: auto;
@@ -87,6 +93,10 @@ main .post .title h2 {
   font-weight: 500;
   letter-spacing: 0.1em;
   margin: 0 0 .3em;
+}
+
+main .post .title h2 a:hover {
+  color: #FD7E00;
 }
 
 main .post .title .date, main .post .title .category {
